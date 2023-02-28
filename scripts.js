@@ -33,15 +33,32 @@ console.log(domainWeb);
 
 
 // 5-Imprime todos los nodos de imagen.
-
+/*
 let galeriaImg = document.querySelectorAll("img");
 console.log(galeriaImg.length);
 console.log(galeriaImg)
-
+*/
 // console.log(document.getElementsByClassName("img-fixed img-sprite"))
 
 // 6-Sustituye el atributo "src" de todas las imágenes por este "https://media.giphy.com/media/2v170e71aanfi/giphy.gif"
 
+//Explico el planteamiento in advance: aprovechando que sabemos como localizar todas las imágenes y ya las tenemos en un array, luego lo recorreremos elemento a elemento para cambiar cada "src" por el nuevo. La teoría hiperclara... avorem ...
+
+
+let galeriaImg = document.querySelectorAll("img");
+
+for (fotos of galeriaImg) {
+    fotos.setAttribute("src","https://media.giphy.com/media/2v170e71aanfi/giphy.gif"); 
+    
+    }
+
+
 // Premium:
 
 // 7- (PREMIUM)Cambia el fondo de todos los infocard-lg-data text-muted para todos los Pokimon voladores itype flying
+
+
+let fondoVuela = document.getElementsByClassName("itype flying")
+console.log (fondoVuela)
+
+//Y hasta aquí llego :-( 
