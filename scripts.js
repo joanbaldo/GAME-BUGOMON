@@ -9,7 +9,7 @@ titulin.textContent = 'Generasión 1 Pokimon - Core Edition'
 
 
 // 2-Cambia el color de fondo de la primera generación de Pokimon.
-//document.getElementsByClassName('.infocard-list infocard-list-pkmn-lg').style.background= '#ccc';
+
 
 let arrayGen1 = document.getElementsByClassName('infocard-list')[0];
 // console.log(arrayGen1.length)
@@ -19,20 +19,17 @@ for (pokemon of arrayGen1.children) {
     pokemon.style.background = "yellow"; 
     }
 
+
 // 3-Imprime por consola la URL de la página.
 
-const urlWeb = document.URL;
-console.log(urlWeb);
+
 
 // 4-Imprime por consola el dominio de la página.
 
-const domainWeb = document.domain;
-console.log(domainWeb);
+
 
 // 5-Imprime todos los nodos de imagen.
-let galeriaImg = document.querySelectorAll("img");
-console.log(galeriaImg.length);
-console.log(galeriaImg)
+
 
 // console.log(document.getElementsByClassName("img-fixed img-sprite"))
 
