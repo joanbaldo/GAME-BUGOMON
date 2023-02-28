@@ -22,7 +22,8 @@ for (pokemon of arrayGen1.children) {
 
 // 3-Imprime por consola la URL de la página.
 
-
+const urlWeb = document.URL;
+console.log(urlWeb);
 
 // 4-Imprime por consola el dominio de la página.
 
