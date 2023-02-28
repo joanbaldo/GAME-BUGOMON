@@ -28,9 +28,15 @@ console.log(urlWeb);
 // 4-Imprime por consola el dominio de la página.
 
 
+const domainWeb = document.domain;
+console.log(domainWeb);
+
 
 // 5-Imprime todos los nodos de imagen.
 
+let galeriaImg = document.querySelectorAll("img");
+console.log(galeriaImg.length);
+console.log(galeriaImg)
 
 // console.log(document.getElementsByClassName("img-fixed img-sprite"))
 
